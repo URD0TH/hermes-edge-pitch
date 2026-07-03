@@ -1,0 +1,3 @@
+name: edge-pitch
+version: 0.1.0
+description: "Edge TTS con control de pitch, volume y rate"

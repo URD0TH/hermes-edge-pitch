@@ -1,0 +1,24 @@
+[project]
+name = "hermes-edge-pitch"
+version = "0.1.0"
+description = "Edge TTS provider with pitch/volume/rate for Hermes Agent"
+requires-python = ">=3.10"
+dependencies = [
+    "edge-tts>=6.0.0",
+]
+
+[project.entry-points."hermes_agent.plugins"]
+edge-pitch = "edge_pitch"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["edge_pitch*"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.15.20",
+]

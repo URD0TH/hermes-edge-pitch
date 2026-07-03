@@ -1,0 +1,12 @@
+# Configuración de ejemplo para edge-pitch plugin
+# Copiar a ~/.hermes/config.yaml o ./config.yaml
+
+tts:
+  provider: edge-pitch # activa este plugin como proveedor TTS
+  speed: 1.0 # velocidad global (multiplicador)
+  edge-pitch: # sección específica del plugin
+    voice: es-ES-AlvaroNeural # voz por defecto
+    pitch: "+0Hz" # tono: -100Hz a +100Hz
+    volume: "+0%" # volumen: -100% a +100%
+    rate: "+0%" # velocidad alternativa en formato edge-tts
+    lang: "en" # idioma de mensajes: en | es
