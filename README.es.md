@@ -15,7 +15,7 @@ Plugin de [Hermes Agent](https://github.com/NousResearch/hermes-agent) que agreg
 
 ## Instalación
 
-### Opción 1: Pip (recomendada)
+### Opción 1: Pip 
 
 ```sh
 cd ruta/del/repo
@@ -25,7 +25,7 @@ hermes plugins list
 # → edge-pitch  ✓ enabled
 ```
 
-### Opción 2: Git
+### Opción 2: Git (recomendada)
 
 ```sh
 hermes plugins install https://github.com/URD0TH/hermes-edge-pitch --enable
