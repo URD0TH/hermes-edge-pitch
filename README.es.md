@@ -136,8 +136,6 @@ pytest tests/ -v
 ├── config.example.yaml       # guía de configuración
 ├── .gitignore
 ├── .python-version
-├── .zed/
-│   └── settings.json         # configuración del LSP
 ├── edge_pitch/
 │   └── __init__.py           # código fuente del provider + register() + CLI
 └── tests/
